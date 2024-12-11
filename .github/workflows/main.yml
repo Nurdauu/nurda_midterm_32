@@ -70,7 +70,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/zangar-chetamski-chetam  # Replace with your Docker Hub repository name
+          images: ${{ secrets.DOCKER_USERNAME }}/nurda_midterm_32  # Replace with your Docker Hub repository name
           tags: |
             type=ref,event=tag
             type=ref,event=pr
