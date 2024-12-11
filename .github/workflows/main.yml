@@ -44,8 +44,8 @@ jobs:
 
   
   package-and-publish:
-    # needs:
-    #   - build
+    needs:
+      - build
 
     name: 🐳 Package & Publish
     runs-on: ubuntu-latest
